@@ -7,6 +7,20 @@
 // Composables
 import { createRouter, createWebHistory } from 'vue-router/auto'
 import { routes } from 'vue-router/auto-routes'
+import { components } from 'vuetify/dist/vuetify.js'
+
+const routes = [
+  {
+    path: "/",
+    name: "home",
+    components: () => import("@/pages/index.vue"),
+  },
+    {
+    path: "/test",
+    name: "test",
+    components: () => import("@/pages/test.vue"),
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
