@@ -5,9 +5,10 @@
  */
 
 // Composables
-import { createRouter, createWebHistory } from 'vue-router/auto'
-import { routes } from 'vue-router/auto-routes'
-import { components } from 'vuetify/dist/vuetify.js'
+import { createRouter, createWebHistory } from 'vue-router'
+
+// import { routes } from 'vue-router/auto-routes'
+// import { components } from 'vuetify/dist/vuetify.js'
 
 const routes = [
   {

@@ -2,7 +2,7 @@
 
     <div>
 
-        <TestComponentOne />
+        <TestComponentOne/>
 
     </div>
 </template>
