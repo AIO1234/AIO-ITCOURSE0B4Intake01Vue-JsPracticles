@@ -9,8 +9,8 @@
 
 <script>
 
-    import TestComponentOne from '@/components/TestComponentOne.vue';
-    // import TestComponentOne from '../components/TestComponentOne.vue';
+    // import TestComponentOne from '@/components/TestComponentOne.vue';
+    import TestComponentOne from '../components/TestComponentOne.vue';
 
     export default{
         components: {
