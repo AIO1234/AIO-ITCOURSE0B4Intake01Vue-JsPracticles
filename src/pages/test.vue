@@ -3,8 +3,9 @@
     <!-- test component one -->
 
     <div class="pt-16"></div>
-    <TestComponentOne />
+     <TestComponentOne />
   </div>
+
 </template>
 
 <script>
