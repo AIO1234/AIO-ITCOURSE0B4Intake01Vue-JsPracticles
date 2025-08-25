@@ -8,10 +8,19 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+<<<<<<< HEAD
     AppFooter: typeof import('./src/components/AppFooter.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+<<<<<<< HEAD
     TestComponentOne: typeof import('./src/components/TestComponentOne.vue')['default']
+=======
+=======
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
+    TestComponentOne: typeof import('./src/components/TestComponentOne.vue')['default']
+>>>>>>> f6eb9651e99b15981bd674b44c1ddcf895dcb011
+>>>>>>> yasindu
   }
 }
