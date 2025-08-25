@@ -1,33 +1,15 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-<<<<<<< HEAD
-// Composables
-import { createRouter, createWebHistory } from 'vue-router'
-
-// import { routes } from 'vue-router/auto-routes'
-// import { components } from 'vuetify/dist/vuetify.js'
-
-=======
->>>>>>> yasindu
 const routes = [
   {
     path: "/",
     name: "home",
-<<<<<<< HEAD
-    components: () => import("@/pages/index.vue"),
-  },
-    {
-    path: "/test",
-    name: "test",
-    components: () => import("@/pages/test.vue"),
-=======
     component: () => import("@/pages/index.vue"),
   },
   {
     path: "/test",
     name: "test",
     component: () => import("@/pages/test.vue"),
->>>>>>> yasindu
   },
 ];
 
