@@ -1,7 +1,11 @@
 <template>
-  <HelloWorld />
+  Hello
+  Hellooo
+  jek,jmhnbvcx,mnhb,kh 
+  jhgfdghlkjhgrf
+  ijtyrfdhjbgf
 </template>
 
-<script setup>
+<script >
   //
 </script>
