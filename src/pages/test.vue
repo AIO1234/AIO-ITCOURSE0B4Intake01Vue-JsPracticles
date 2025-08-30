@@ -1,5 +1,10 @@
 <template>
   <div>
+
+    <h1>Hello Test Component</h1>
+
+    <p>Hello</p>
+
     <!-- test component one -->
 
     <div class="pt-16"></div>
