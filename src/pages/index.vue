@@ -1,5 +1,10 @@
 <template>
-  Hello Hellooo jek,jmhnbvcx,mnhb,kh jhgfdghlkjhgrf ijtyrfdhjbgf
+  <div>
+    Hello Hellooo jek,jmhnbvcx,mnhb,kh jhgfdghlkjhgrf ijtyrfdhjbgf
+    <div class="pt-5"></div>
+
+    <p>hello Para</p>
+  </div>
 </template>
 
 <script>
@@ -37,3 +42,7 @@ export default {
   },
 };
 </script>
+
+<style>
+
+</style>
