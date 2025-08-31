@@ -5,10 +5,12 @@
 
     <div class="pt-10"></div>
 
+    <!-- card component -->
     <CardComponent />
 
     <div class="pt-10"></div>
 
+    <!-- form component -->
     <FormComponent />
 
     <div class="pt-10"></div>
