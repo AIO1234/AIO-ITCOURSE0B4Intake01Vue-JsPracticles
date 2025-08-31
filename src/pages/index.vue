@@ -1,60 +1,48 @@
 <template>
+  <div>
+    Hello Hellooo jek,jmhnbvcx,mnhb,kh jhgfdghlkjhgrf ijtyrfdhjbgf
+    <div class="pt-5"></div>
 
-<div>
-
-  <h1>Hello</h1>
-  <h3>Hellooo...!</h3>
-
- </div>
-
-
+    <p>hello Para</p>
+  </div>
 </template>
 
-<script >
-  
-  export default{
+<script>
+export default {
+  components: {},
 
-    components: {
+  // this occures before creating the component
+  beforeCreate() {
+    console.log("before create");
+  },
 
-    },
-// Vue life cycle hook
-    beforeCreate() {
+  // this occures after created the component
+  created() {
+    console.log("created");
+  },
 
-      console.log("Before Create"); //Loade at first (Before every events)
+  // this occures before loding the component
+  beforeMount() {
+    console.log("before mount");
+  },
 
-    },
+  // this occures after loaded the component
+  mounted() {
+    console.log("mounted");
+  },
 
-    created(){
+  // this occures before update anything in the component(after loaded)
+  beforeUpdate() {
+    console.log("before update");
+  },
 
-      console.log("Created"); // After beforeCreate
-
-    },
-
-    beforeMount() {
-
-      console.log("Before Mount"); //Loded after beforeCreate and Created
-
-    },
-
-    mounted() {
-
-      console.log("Mounted"); //Loded after beforeCreate and created
-
-    },
-
-    beforeUpdate() {
-
-      console.log("Before Update"); //Before every updates
-
-    },
-
-    updated() {
-
-      console.log("Updated"); //With every updates
-
-    },
-
-  };
-
+  // this occures after updated anything in the component
+  updated() {
+    console.log("updated");
+  },
+};
 </script>
 
+<style>
+
+</style>

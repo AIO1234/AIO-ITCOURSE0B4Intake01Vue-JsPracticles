@@ -6,9 +6,10 @@
     <p>Hello</p>
 
     <!-- test component one -->
-
-    <div class="pt-16"></div>
-     <TestComponentOne />
+    <!-- <h1>Hello Test Component</h1>
+    Hello -->
+    <!-- <div class="pt-16"></div> -->
+    <TestComponentOne />
   </div>
 
 </template>
