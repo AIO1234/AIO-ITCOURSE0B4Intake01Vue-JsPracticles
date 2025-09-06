@@ -21,11 +21,7 @@
         <v-card-title> Card </v-card-title>
         <v-card-subtitle> Card </v-card-subtitle>
         Hello Card
-      
       </v-card>
-
-
-      
     </center>
   </div>
 </template>
