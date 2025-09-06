@@ -69,9 +69,9 @@ export default {
       test: "Name",
       items: ["elemant1", "elemant2"],
       obj1: { key1: "prop1" },
-      name: "Test",
-      address: "Sample",
-      inquiry: "Sample2",
+      name: "",
+      address: "",
+      inquiry: "",
     };
   },
 
@@ -79,12 +79,16 @@ export default {
     console.log(this.test);
   },
   created() {
-    console.log(this.test);
+    this.name = "Sample Name";
+    this.address = "Sample Address";
+    this.inquiry = "Sample Inquiry";
   },
   methods: {
     // test method
     test123() {
-      console.log(this.test);
+      console.log(this.name);
+      console.log(this.address);
+      console.log(this.inquiry);
       this.$router.push("/");
     },
   },
