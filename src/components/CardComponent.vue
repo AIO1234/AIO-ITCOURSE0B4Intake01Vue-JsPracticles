@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <div class="pl-4 pr-1">
+  <div class="sample">
+    <div class="pl-4 pr-1 cardcomponent">
       <v-row>
         <v-col lg="4" md="6" sm="4" cols="12">
-          <v-card color="#D9D9D9" width="90%" elevation="10">
+          <v-card class="image-width" elevation="10">
             <v-img src="@/assets/images/ss21.png"></v-img>
 
             <!-- description -->
@@ -21,7 +21,7 @@
         </v-col>
 
         <v-col lg="4" md="6" sm="4" cols="12">
-          <v-card color="#D9D9D9" width="90%" elevation="10">
+          <v-card class="image-width" elevation="10">
             <v-img src="@/assets/images/ss21.png"></v-img>
 
             <!-- description -->
@@ -39,7 +39,7 @@
         </v-col>
 
         <v-col lg="4" md="6" sm="4" cols="12">
-          <v-card color="#D9D9D9" width="90%" elevation="10">
+          <v-card class="image-width" elevation="10">
             <v-img src="@/assets/images/ss21.png"></v-img>
 
             <!-- description -->
