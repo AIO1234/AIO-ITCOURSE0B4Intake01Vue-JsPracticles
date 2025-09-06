@@ -10,11 +10,11 @@
           <v-form class="pa-7">
             <v-row>
               <!-- name -->
-              <v-col cols="12">
+              <v-col cols="12" v-if="name === 'yasindu'">
                 <label>Name</label>
                 <div class="pt-1"></div>
                 <v-text-field variant="outlined" v-model="name"></v-text-field>
-                {{ name }}
+                <span v-if="name === 'yasindu'">{{ name }}</span>
               </v-col>
 
               <!-- address -->
@@ -79,7 +79,7 @@ export default {
     console.log(this.test);
   },
   created() {
-    this.name = "Sample Name";
+    // this.name = "Sample Name";
     this.address = "Sample Address";
     this.inquiry = "Sample Inquiry";
   },
